@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CameraFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#DBCFCF">
+
+<!--        <ImageView-->
+<!--            android:id="@+id/imageView3"-->
+<!--            android:layout_width="255dp"-->
+<!--            android:layout_height="361dp"-->
+<!--            android:layout_alignParentStart="true"-->
+<!--            android:layout_alignParentTop="true"-->
+<!--            android:layout_alignParentEnd="true"-->
+<!--            android:layout_alignParentBottom="true"-->
+<!--            android:layout_marginStart="55dp"-->
+<!--            android:layout_marginTop="153dp"-->
+<!--            android:layout_marginEnd="55dp"-->
+<!--            android:layout_marginBottom="217dp"-->
+<!--            android:src="@drawable/pict" />-->
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="275dp"
+            android:layout_above="@+id/btn_process"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="80dp"
+            android:layout_marginTop="155dp"
+            android:layout_marginEnd="80dp"
+            android:layout_marginBottom="140dp"
+            android:src="@drawable/pict" />
+
+        <Button
+            android:id="@+id/btn_camera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="81dp"
+            android:layout_marginTop="499dp"
+            android:layout_marginEnd="229dp"
+            android:layout_marginBottom="168dp"
+            android:text="Camera"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/btn_gallery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="229dp"
+            android:layout_marginTop="500dp"
+            android:layout_marginEnd="81dp"
+            android:layout_marginBottom="166dp"
+            android:text="Gallery"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/btn_process"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="283dp"
+            android:layout_marginEnd="23dp"
+            android:layout_marginBottom="33dp"
+            android:text="Process"
+            android:textSize="10sp" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="241dp"
+            android:layout_height="103dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="84dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="86dp"
+            android:src="@drawable/upload" />
+
+
+    </RelativeLayout>
+
+</FrameLayout>
